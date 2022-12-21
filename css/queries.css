@@ -1,0 +1,223 @@
+/* ------------------------------ */
+/* -------- BELOW 1000px -------- */
+/* ------------------------------ */
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-main {
+    max-width: 800px;
+  }
+
+  .hero-textbox {
+    order: 2;
+    margin-top: 380px;
+  }
+
+  .hero-imgbox {
+    order: 0;
+  }
+
+  .hero-backCard-img {
+    width: 70%;
+    right: 15%;
+  }
+
+  .hero-frontCard-img {
+    width: 70%;
+    right: 10%;
+  }
+
+  .services-head {
+    grid-template-columns: 1fr;
+    margin-bottom: 80px;
+  }
+
+  .services-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-box-main {
+    margin-top: 0;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 800px -------- */
+/* ------------------------------ */
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .nav-btn-group {
+    display: none;
+  }
+
+  .hero-main {
+    max-width: 600px;
+  }
+
+  .hero-textbox {
+    margin-top: 300px;
+  }
+
+  .hero-textbox h1 {
+    font-size: 40px;
+  }
+
+  .hero-textbox p {
+    margin-right: 0;
+  }
+
+  .hero-backCard-img {
+    width: 80%;
+    right: 10%;
+  }
+
+  .hero-frontCard-img {
+    width: 80%;
+    right: 5%;
+  }
+
+  .section-logos {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .logos {
+    padding: 50px 5%;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .services {
+    padding-bottom: 90px;
+  }
+
+  .services-head {
+    margin-bottom: 60px;
+  }
+
+  .services-head h2 {
+    font-size: 40px;
+  }
+
+  .section-card-choices {
+    padding-top: 70px;
+  }
+
+  .card-choices h2 {
+    font-size: 40px;
+  }
+
+  .section-testimonials {
+    padding: 80px 0 100px;
+  }
+
+  .testimonials-head h2 {
+    font-size: 40px;
+  }
+
+  .testimonial-boxes {
+    gap: 30px;
+  }
+
+  footer {
+    padding: 50px 0 50px;
+  }
+
+  .footer-nav-list {
+    display: none;
+  }
+}
+
+/* ------------------------------ */
+/* -------- BELOW 600px -------- */
+/* ------------------------------ */
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 11;
+  }
+
+  .hero-textbox {
+    order: 2;
+    margin-top: 260px;
+  }
+
+  .hero-features {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vector-img {
+    display: none;
+  }
+
+  .hero-main {
+    max-width: 400px;
+  }
+
+  .hero-backCard-img {
+    width: 100%;
+    right: 5%;
+  }
+
+  .hero-frontCard-img {
+    width: 100%;
+    right: 0%;
+  }
+
+  .logos {
+    padding: 50px 0;
+    gap: 40px;
+  }
+
+  .logos img {
+    width: 100px;
+  }
+
+  .services-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .service-box {
+    min-width: 300px;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .testimonial-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-box {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .cta {
+    padding: 70px 0;
+  }
+
+  .cta h2 {
+    font-size: 44px;
+  }
+}
